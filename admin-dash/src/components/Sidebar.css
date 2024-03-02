@@ -5,9 +5,10 @@
 
 .sidebar-container {
     height: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: grid;
     grid-template-rows: 75px 1.5fr 1fr;
+    background-color: #101010;
 }
 
 .sidebar-header-container,

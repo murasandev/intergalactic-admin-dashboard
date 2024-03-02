@@ -5,6 +5,7 @@ import './App.css'
 import Dashboard from './components/Dashboard'
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
+import bgImg from './assets/images/bg-dash.jpeg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,11 @@ function App() {
   return (
     <>
       <div className='app-container'>
+        <img className='bg-img'
+          src={bgImg}
+          // alt={title}
+          
+        />
         <div className='app-sidebar'>
           <Sidebar />
         </div>
@@ -22,7 +28,6 @@ function App() {
           <Dashboard />
         </div>
       </div>
-      
     </>
   )
 }
