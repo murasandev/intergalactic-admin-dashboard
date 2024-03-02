@@ -48,7 +48,7 @@
   display: grid;
   grid-template-areas: "sidebar header"
   "sidebar dash";
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: 75px 1fr;
   grid-template-columns: minmax(250px, 1fr) minmax(750px, 5fr);
 }
 

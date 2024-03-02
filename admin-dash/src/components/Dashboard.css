@@ -8,7 +8,7 @@
     display: grid;
     grid-template-areas: "header-container"
     "dash-body";
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 75px 10fr;
 }
 
 .dash-header-container {

@@ -5,7 +5,7 @@
 
 .header-container {
     border: 1px solid blue;
-    height: 100px;
+    height: 75px;
     display: grid;
     grid-template-columns: 1fr 250px;
 }
