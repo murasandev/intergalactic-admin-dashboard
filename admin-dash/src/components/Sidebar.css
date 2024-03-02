@@ -1,0 +1,17 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-container {
+    height: 100%;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr;
+}
+
+.sidebar-header-container,
+.sidebar-nav-container,
+.sidebar-profile-container {
+    border: 1px solid red;
+}
