@@ -16,7 +16,6 @@ function App() {
         <img className='bg-img'
           src={bgImg}
           // alt={title}
-          
         />
         <div className='app-sidebar'>
           <Sidebar />

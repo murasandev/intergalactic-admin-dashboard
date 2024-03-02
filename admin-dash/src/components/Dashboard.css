@@ -9,6 +9,7 @@
     grid-template-areas: "header-container"
     "dash-body";
     grid-template-rows: 75px 10fr;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .dash-header-container {
