@@ -4,13 +4,42 @@
 }
 
 .header-container {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 75px;
     display: grid;
     grid-template-columns: 1fr 250px;
+    background-color: #101010;
 }
 
-.left-header,
 .right-header {
-    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 50px 2px 35px;
+    gap: 15px;
+}
+
+.header-profile-name,
+.header-profile-pic,
+.header-divider,
+.header-notification {
+    /* border: 1px solid green; */
+    align-self: center;
+}
+
+.header-profile-name {
+    text-align: end;
+    color: white;
+}
+
+.header-profile-pic {
+    display: grid;
+    justify-self: center;
+}
+
+.header-divider {
+    justify-self: center;
+}
+
+.header-notification {
+    /* display: grid; */
+    justify-items: start;
 }
