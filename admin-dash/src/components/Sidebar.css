@@ -11,7 +11,15 @@
     background-color: #101010;
 }
 
-.sidebar-header-container,
+.sidebar-header-container {
+    justify-self: center;
+    align-self: center;
+}
+
+.sidebar-header-container > button {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 .sidebar-nav-container,
 .sidebar-profile-container {
     border: 1px solid red;

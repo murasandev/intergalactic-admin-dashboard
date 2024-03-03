@@ -1,4 +1,5 @@
 import './Dashboard.css'
+import Breadcrumbs from '@semcore/ui/breadcrumbs';
 
 export default function Dashboard() {
     return(
@@ -8,7 +9,14 @@ export default function Dashboard() {
                     <h1>Dashboard</h1>
                 </div>
                 <div className='dash-breadcrumb-container'>
-                    breadcrumbs
+                    <Breadcrumbs>
+                        <Breadcrumbs.Item href="#">
+                            Home
+                        </Breadcrumbs.Item>
+                        <Breadcrumbs.Item href="#">
+                            Dashboard
+                        </Breadcrumbs.Item>
+                    </Breadcrumbs>
                 </div>
             </div>
             <div className="dash-body">

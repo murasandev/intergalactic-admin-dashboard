@@ -22,13 +22,14 @@
 
 .dash-header {
     text-align: left;
-    border: 1px solid red;
+    color: rgb(217, 217, 217);
+    /* border: 1px solid red; */
 }
 
 .dash-breadcrumb-container {
-    text-align: right;
+    justify-self: end;
     padding-right: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .dash-body {
@@ -67,7 +68,6 @@
     border: 1px solid green;
 }
 
-.dash-header-container,
 .dash-body {
     border: 1px solid blue;
 }
