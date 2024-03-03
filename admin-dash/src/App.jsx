@@ -13,10 +13,6 @@ function App() {
   return (
     <>
       <div className='app-container'>
-        <img className='bg-img'
-          src={bgImg}
-          // alt={title}
-        />
         <div className='app-sidebar'>
           <Sidebar />
         </div>

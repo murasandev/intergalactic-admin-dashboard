@@ -43,7 +43,7 @@
 .dash-row-1,
 .dash-row-2,
 .dash-row-3 {
-    border: 1px solid red;
+    border: 1px solid #ff0000;
     display: grid;
     gap: 10px;
     padding-top: 5px;
@@ -51,7 +51,7 @@
 }
 
 .dash-row-1 {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(175px, 175px));
 }
 
 .dash-row-2 {
@@ -66,6 +66,8 @@
 .dash-row-2 > div,
 .dash-row-3 > div {
     border: 1px solid green;
+    background-color: #ffffff35;
+    border-radius: 5px;
 }
 
 .dash-body {
