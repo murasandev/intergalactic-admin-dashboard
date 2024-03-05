@@ -16,15 +16,6 @@
     align-self: center;
 }
 
-.sidebar-header-container > button {
-    background-color: rgba(255, 255, 255, 0);
-}
-
-.sidebar-nav-container,
-.sidebar-profile-container {
-    border: 1px solid red;
-}
-
 .sidebar-nav-container
 {
     display: grid;
@@ -37,5 +28,22 @@
 }
 
 .sidebar-nav-link {
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    padding-left: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 0;
+}
+
+.sidebar-nav-link:focus {
+    background-color: #262626;
+}
+
+.sidebar-nav-link > h5 {
+    text-align: left;
+    padding-left: 25px;
+    color: whitesmoke;
 }

@@ -1,7 +1,14 @@
 import './SideButton.css'
 
-export default function SideButton({icon, name}) {
+
+export default function SideButton({icon, title, size = 25}) {
     return(
-        <div></div>
+        <div className='button-container'>
+            <div className='button-img'>
+            </div>
+            <div className='button-text'>
+                {title}
+            </div>
+        </div>
     )
 }
