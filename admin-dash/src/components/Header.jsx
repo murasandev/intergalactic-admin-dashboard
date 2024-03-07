@@ -33,14 +33,15 @@ export default function Header() {
                         loading={false}
                         size="s"
                         theme="invert"
-                        use="secondary"
+                        use="tertiary"
                         >
-                        <CalendarL />
+                        <CalendarL color='white' />
                             <Dot
                             aria-label="You have unread notification"
                             hidden={false}
                             size="l"
                             up={true}
+                            
                         />
                     </Button>
                 </div>

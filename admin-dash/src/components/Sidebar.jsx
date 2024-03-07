@@ -9,6 +9,7 @@ import UserL from '@semcore/ui/icon/User/l'
 import ChatQuestionL from '@semcore/ui/icon/ChatQuestion/l'
 import SettingsL from '@semcore/ui/icon/Settings/l'
 import LikeL from '@semcore/ui/icon/Like/l'
+import GitHubL from '@semcore/ui/icon/color/GitHub/l'
 
 export default function Sidebar() {
     return(
@@ -25,19 +26,19 @@ export default function Sidebar() {
             </div>
             <div className='sidebar-nav-container'>
                 <a href='#' className='sidebar-nav-link'>
-                    <HomeL />
+                    <HomeL color='white'/>
                     <h5>Home</h5>
                 </a>
                 <a href='#' className='sidebar-nav-link'>
-                    <DesktopChartL />
+                    <DesktopChartL color='white'/>
                     <h5>Dashboard</h5>
                 </a>
                 <a href='#' className='sidebar-nav-link'>
-                    <DocumentL />
+                    <DocumentL color='white'/>
                     <h5>Documentation</h5>
                 </a>
                 <a href='#' className='sidebar-nav-link'>
-                    <BookL />
+                    <BookL color='white'/>
                     <h5>Libraries</h5>
                 </a>
                 <a href='#' className='sidebar-nav-link'>
@@ -45,7 +46,7 @@ export default function Sidebar() {
                     <h5>GitHub</h5>
                 </a>
                 <a href='#' className='sidebar-nav-link'>
-                    <ChatQuestionL />
+                    <ChatQuestionL color='white'/>
                     <h5>Contact</h5>
                 </a>
             </div>

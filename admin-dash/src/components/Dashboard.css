@@ -8,7 +8,7 @@
     display: grid;
     grid-template-areas: "header-container"
     "dash-body";
-    grid-template-rows: 75px 10fr;
+    grid-template-rows: 75px 1fr;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -43,7 +43,7 @@
 .dash-row-1,
 .dash-row-2,
 .dash-row-3 {
-    border: 1px solid #ff0000;
+    /* border: 1px solid #ff0000; */
     display: grid;
     gap: 10px;
     padding-top: 5px;
@@ -65,11 +65,11 @@
 .dash-row-1 > div,
 .dash-row-2 > div,
 .dash-row-3 > div {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     background-color: #ffffff35;
     border-radius: 5px;
 }
 
-.dash-body {
+/* .dash-body {
     border: 1px solid blue;
-}
+} */

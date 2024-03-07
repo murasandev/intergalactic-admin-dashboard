@@ -1,5 +1,6 @@
 import './Dashboard.css'
 import Breadcrumbs from '@semcore/ui/breadcrumbs';
+import { ChartLegend } from '@semcore/ui/d3-chart';
 
 export default function Dashboard() {
     return(
@@ -21,7 +22,9 @@ export default function Dashboard() {
             </div>
             <div className="dash-body">
                 <div className='dash-row-1'>
-                    <div></div>
+                    <div>
+                        {/* <ChartLegend /> */}
+                    </div>
                     <div></div>
                     <div></div>
                     <div></div>
