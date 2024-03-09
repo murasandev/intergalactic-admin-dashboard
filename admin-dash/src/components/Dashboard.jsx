@@ -1,8 +1,13 @@
 import './Dashboard.css'
 import Breadcrumbs from '@semcore/ui/breadcrumbs';
-import { ChartLegend } from '@semcore/ui/d3-chart';
+import DataLegend from './DataLegend'
+import BubbleChart from './BubbleChart'
+import BarChart from './BarChart'
+import RadarChart from './RadarChart'
+import LineChart from './LineChart'
+import DonutChart from './DonutChart'
 
-export default function Dashboard() {
+export default function Dashboard() { 
     return(
         <div className="dash-container">
             <div className="dash-header-container">
@@ -22,23 +27,20 @@ export default function Dashboard() {
             </div>
             <div className="dash-body">
                 <div className='dash-row-1'>
-                    <div>
-                        {/* <ChartLegend /> */}
-                    </div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div><DataLegend /></div>
+                    <div><DataLegend /></div>
+                    <div><DataLegend /></div>
+                    <div><DataLegend /></div>
                 </div>
                 <div className='dash-row-2'>
-                    <div></div>
-                    <div></div>
+                    <div><BubbleChart /></div>
+                    <div><RadarChart /></div>
                 </div>
                 <div className='dash-row-3'>
-                    <div></div>
-                    <div></div>
+                    <div><DonutChart /></div>
+                    <div><LineChart /></div>
                 </div>
             </div>
         </div>
     )
-    
 }

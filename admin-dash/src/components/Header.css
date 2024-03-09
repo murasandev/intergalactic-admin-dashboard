@@ -9,6 +9,9 @@
     display: grid;
     grid-template-columns: 1fr 250px;
     background-color: #101010;
+    /* position: fixed;
+    top:0;
+    z-index: 2; */
 }
 
 .right-header {

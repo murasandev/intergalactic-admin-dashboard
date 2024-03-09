@@ -9,6 +9,8 @@
     display: grid;
     grid-template-rows: 75px 1.5fr 1fr;
     background-color: #101010;
+    position: fixed;
+    width: 260px;
 }
 
 .sidebar-header-container {
