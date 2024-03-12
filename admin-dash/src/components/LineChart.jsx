@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plot, Line, XAxis, YAxis, HoverLine, minMax } from 'intergalactic/d3-chart';
+import { Plot, Line, XAxis, YAxis, HoverLine, minMax, colors } from 'intergalactic/d3-chart';
 import { scaleLinear } from 'd3-scale';
 import { Flex } from 'intergalactic/flex-box';
 import { Text } from 'intergalactic/typography';
@@ -23,7 +23,7 @@ const Demo = () => {
       <YAxis>
         <YAxis.Ticks />
         <YAxis.Grid />
-      </YAxis>
+      </YAxis >
       <XAxis>
         <XAxis.Ticks />
       </XAxis>

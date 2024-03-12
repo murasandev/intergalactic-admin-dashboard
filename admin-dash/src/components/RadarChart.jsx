@@ -13,13 +13,13 @@ const Demo = () => {
       <Radar scale={scale}>
         <Radar.Axis dataKey='categories'>
           <Radar.Axis.Ticks />
-          <Radar.Axis.Labels />
+          <Radar.Axis.Labels fill='white'/>
         </Radar.Axis>
         <Radar.Polygon dataKey='data_1' color='chart-palette-order-1'>
           <Radar.Polygon.Line />
           <Radar.Polygon.Dots />
         </Radar.Polygon>
-        <Radar.Polygon dataKey='data_2' color='chart-palette-order-2'>
+        <Radar.Polygon dataKey='data_2' color='chart-palette-order-3'>
           <Radar.Polygon.Line />
           <Radar.Polygon.Dots />
         </Radar.Polygon>
