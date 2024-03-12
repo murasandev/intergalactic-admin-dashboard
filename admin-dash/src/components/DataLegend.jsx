@@ -1,6 +1,8 @@
 import React from 'react';
 import { ChartLegendTable } from '@semcore/d3-chart';
 import { Text } from '@semcore/typography';
+import Divider from 'intergalactic/divider';
+import './DataLegend.css'
 
 const data = [...Array(5).keys()].map((d, i) => ({
   x: i,
@@ -29,6 +31,9 @@ const Demo = () => {
 
   return (
     <div style={{ width: '200px' }}>
+        <h2>71,826</h2>
+        <p>value name: 1234123</p>
+        <Divider />;
       <ChartLegendTable items={lines} />
     </div>
   );
