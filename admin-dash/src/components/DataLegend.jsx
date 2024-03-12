@@ -21,8 +21,8 @@ const Demo = () => {
         checked: true,
         color: `chart-palette-order-${index + 1}`,
         columns: [
-          <Text use={'secondary'}>{(42 * (index + 3)) / 10}%</Text>,
-          <Text use={'primary'}>{42 * (index + 3)}</Text>,
+          <Text color='white'>{(42 * (index + 3)) / 10}%</Text>, //use={'secondary'} --> original
+          <Text color='light-blue'>{42 * (index + 3)}</Text>, //use={'primary'}
         ],
       };
     });
