@@ -5,6 +5,7 @@
 
 .dash-container {
     height: 100%;
+    width: 100%;
     display: grid;
     grid-template-areas: "header-container"
     "dash-body";

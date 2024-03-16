@@ -10,7 +10,8 @@
     grid-template-rows: 75px 1.5fr 1fr;
     background-color: #101010;
     position: fixed;
-    width: 260px;
+    z-index: 1;
+    width: 250px;
 }
 
 .sidebar-header-container {
@@ -48,4 +49,5 @@
     text-align: left;
     padding-left: 25px;
     color: whitesmoke;
+    font-size: 1rem;
 }
