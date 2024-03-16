@@ -61,12 +61,13 @@ body {
 
 .app-header {
   grid-area: header;
-  width: 100%;
+  width: 1fr;
 }
 
 .app-dash {
   grid-area: dash;
   z-index: -1;
+  width: 1fr;
 }
 
 .app-sidebar {
