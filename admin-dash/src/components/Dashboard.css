@@ -5,12 +5,13 @@
 
 .dash-container {
     height: 100%;
-    width: 100%;
+    width: 95%;
+    margin-left: 20px;
     display: grid;
     grid-template-areas: "header-container"
     "dash-body";
     grid-template-rows: 75px 1fr;
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
 }
 
 .dash-header-container {
