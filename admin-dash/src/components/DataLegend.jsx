@@ -4,22 +4,23 @@ import { Text } from '@semcore/typography';
 import Divider from 'intergalactic/divider';
 import './DataLegend.css'
 
-// fetch('http://localhost:5000/dataLegend1/')
-//   .then(response => response.json())
-//   .then(data => console.log(data.overall))
-//   .catch(error => console.log(error));
-
-// async function Overall() {
-//   const response = await fetch("http://localhost:5000/dataLegend1/");
-//   const data = await response.json();
-//   return data;
+let test;
+let file= "http://localhost:5000/dataLegend1/";
+// switch(test){
+//   case 1:
+//     file = "http://localhost:5000/dataLegend1/";
+//     break;
+//   case 2:
+//     file = "http://localhost:5000/dataLegend2/";
+//     break;
+//   case 3:
+//     file = "http://localhost:5000/dataLegend3/";
+//     break;
 // }
-
-let file = "http://localhost:5000/dataLegend1/"
-
+let a;
 fetch (file)
 .then(response => response.json())
-.then(data => document.getElementById("demo").innerHTML = data.overall);
+.then(data => a = data.overall);
 
 fetch (file)
 .then(response => response.json())
@@ -52,9 +53,9 @@ const Demo = () => {
 
   return (
     <div style={{ width: '200px' }}>
-        <h2 id='demo'>71,826</h2>
+        <h2 id='demo'>{a}</h2>
         <p id='title'>value name: 1234123</p>
-        <Divider />;
+        <Divider /> 
       <ChartLegendTable items={lines} />
     </div>
   );

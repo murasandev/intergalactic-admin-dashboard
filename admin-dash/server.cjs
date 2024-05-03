@@ -12,7 +12,15 @@ app.get('/item2', (req, res) => {
   b: 'Hello from Express b!'});
 });
 app.get('/dataLegend1', (req, res) => {
-  res.send({overall: '12345456', title: "item #1", item1: "1",
+  res.send({overall: '368534', title: "Revenue", item1: "1",
+item2: "2", item3: "3", item4: "4", item5: "5"})
+})
+app.get('/dataLegend2', (req, res) => {
+  res.send({overall: '788534', title: "Costs of Goods", item1: "1",
+item2: "2", item3: "3", item4: "4", item5: "5"})
+})
+app.get('/dataLegend3', (req, res) => {
+  res.send({overall: '58785', title: "Sales", item1: "1",
 item2: "2", item3: "3", item4: "4", item5: "5"})
 })
 app.listen(port, () => {
